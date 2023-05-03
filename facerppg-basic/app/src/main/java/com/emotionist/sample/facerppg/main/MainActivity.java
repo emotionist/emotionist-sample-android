@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.emotionist.sample.facerppg;
+package com.emotionist.sample.facerppg.main;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -23,6 +23,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.emotionist.sample.facerppg.R;
+import com.emotionist.sample.facerppg.view.FaceRppgResultGlRenderer;
 import com.emotionist.sdk.formats.proto.BiomarkerProto.Biomarker;
 import com.emotionist.sdk.formats.proto.BiosignalProto.Biosignal;
 import com.emotionist.sdk.formats.proto.ProgressProto.Progress;
