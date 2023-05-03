@@ -1,0 +1,10 @@
+/.idea
+.DS_Store
+._.DS_Store
+%%/.DS_Store
+**/._.DS_Store
+facedetection
+facedetection_org
+faceexpression
+facemesh
+facerppg-raw
