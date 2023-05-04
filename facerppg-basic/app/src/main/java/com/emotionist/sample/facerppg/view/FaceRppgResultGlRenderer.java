@@ -14,17 +14,8 @@
 
 package com.emotionist.sample.facerppg.view;
 
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
 import android.opengl.GLES20;
-import android.opengl.GLUtils;
 
-import com.emotionist.sdk.formats.proto.BiomarkerProto.Biomarker;
-import com.emotionist.sdk.formats.proto.ProgressProto.Progress;
 import com.emotionist.sdk.solutioncore.ResultGlRenderer;
 import com.emotionist.sdk.solutions.facerppg.FaceRppgResult;
 import com.google.mediapipe.formats.proto.DetectionProto.Detection;

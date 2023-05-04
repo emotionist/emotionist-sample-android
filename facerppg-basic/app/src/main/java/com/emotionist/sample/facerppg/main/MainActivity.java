@@ -23,8 +23,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.emotionist.sample.facerppg.R;
 import com.emotionist.sample.facerppg.view.FaceRppgResultGlRenderer;
+import com.emotionist.sample.facerppg.R;
 import com.emotionist.sdk.formats.proto.BiomarkerProto.Biomarker;
 import com.emotionist.sdk.formats.proto.BiosignalProto.Biosignal;
 import com.emotionist.sdk.formats.proto.ProgressProto.Progress;
@@ -39,7 +39,7 @@ import com.google.mediapipe.formats.proto.LocationDataProto.LocationData.Relativ
 /** Main activity of Emotionist FaceRppg app. */
 public class MainActivity extends AppCompatActivity {
   private static final String TAG = "MainActivity";
-  private static final String APP_ID = "99999999-9999-9999-9999-999999999999";
+  private static final String APP_ID = "";
 
   private Activity activity;
   private FaceRppg faceRppg;
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                     this,
                     FaceRppgOptions.builder()
                             .setStaticImageMode(false)
-                            .setRunOnGpu(false)
+                            .setRunOnGpu(true)
                             .setMinDetectionConfidence(0.5f)
                             .build());
 
