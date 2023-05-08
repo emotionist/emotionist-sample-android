@@ -39,7 +39,7 @@ import com.google.mediapipe.formats.proto.LocationDataProto.LocationData.Relativ
 /** Main activity of Emotionist FaceRppg app. */
 public class MainActivity extends AppCompatActivity {
   private static final String TAG = "MainActivity";
-  private static final String APP_ID = "99999999-9999-9999-9999-999999999999";
+  private static final String APP_ID = "";
 
   private Activity activity;
   private FaceRppg faceRppg;
